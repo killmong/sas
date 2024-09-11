@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #213970;
+  }
+  
+  #cursor {
+    width: 20px;
+    height: 20px;
+    background: #fca311;
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  
+  #cursor-blur {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 163, 17, 0.5);
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9998;
+  }
+  

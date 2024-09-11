@@ -1,0 +1,45 @@
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .articles-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
+    justify-content: center; /* Centers the articles in the container */
+    gap: 20px; /* Adds space between the article cards */
+  }
+  
+  .article-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    cursor: pointer;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    overflow: hidden;
+    max-height: 60px;
+    width: 300px; /* Set a fixed width for horizontal cards */
+  }
+  
+  .article-card.expanded {
+    max-height: 500px; /* Set to a large value for expansion */
+    padding: 20px;
+  }
+  
+  .article-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .article-content {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+.head-align{
+  text-align: center;
+  color: #FCA311;
+}

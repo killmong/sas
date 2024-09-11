@@ -1,0 +1,23 @@
+.ipc-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .ipc-card.expanded {
+    background-color: #e2e2e2;
+  }
+  
+  .ipc-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .ipc-content {
+    margin-top: 10px;
+    font-size: 1.1em;
+  }
+  

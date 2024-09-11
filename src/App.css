@@ -1,0 +1,26 @@
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  }
+
+#cursor {
+  width: 5px;
+  height: 5px;
+  background: #fca311;
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+#cursor-blur {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 163, 17, 0.5);
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+}

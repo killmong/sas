@@ -1,0 +1,21 @@
+.page-section {
+  padding: 100px 50px;
+  text-align: center;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}
+
+.page-section:hover {
+  background-color: #eaeaea;
+}
+
+.page-section h3 {
+  font-size: 2rem;
+  color: #2b547e;
+  margin-bottom: 20px;
+}
+
+.page-section p {
+  font-size: 1.25rem;
+  color: #333;
+}
